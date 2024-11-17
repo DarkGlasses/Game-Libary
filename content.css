@@ -1,0 +1,138 @@
+html{
+    padding: 4px;
+    background-color:   rgb(23, 58, 162);
+    font-family: Verdana ;
+}
+title{
+    font-weight: bold;
+    color:crimson;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 20px ;
+}
+
+/* Body */
+
+body{
+    padding-top: 4rem;
+}
+.red{
+    color: red;
+}
+
+/*Nav bar*/
+
+.main-nav{
+    width: 100vw; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    min-width: 600px;
+}
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+}
+.main-nav li{
+    float: left
+}
+.main-nav a{
+    background-color: black;
+    display: block;
+    padding: 1rem 5rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    background-color: rgb(0, 23, 91);
+    color: gray;
+}
+.main-nav input{
+    float: right;
+}
+.main-nav input[type=text]{
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    margin-right: 1rem;
+}
+/*Content*/
+
+.content-section{
+    margin-top: 4rem;
+    display: grid;
+    grid-row-gap: 4rem;
+    grid-column-gap: 4rem;
+    grid-template-rows: 30rem;
+    padding: 20px;
+    min-width: 400px;
+    background-position: center;
+
+}
+.content-section h3{
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+}
+.content-section p{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 0.5rem;    
+    border-radius: 1px;
+    margin: 0 auto;
+    max-width: 34rem;
+    margin-left: 0;
+}
+.content-section div1{
+    background-image: url(https://images3.alphacoders.com/104/1045839.jpg);
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 450px;
+    background-size: cover;
+}
+.content-section div2{
+    background-image: url(https://wallpaperbat.com/img/7038-dante-balrog-devil-arm-devil-may-cry-5-4k-wallpaper.jpg);
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 450px;
+    background-size: cover;
+}
+.content-section div3{
+    background-image: url(https://wallpapers.com/images/hd/sekiro-shadows-die-twice-and-fields-40edna1sumjbsnkp.jpg);
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 450px;
+    background-size: cover;
+}
+footer{
+    margin-top: 4rem;
+    background-color: black;
+    color: #dddddd;
+    padding: 1rem;
+    text-align: center;
+    min-width: 500px;
+}
+
+@media(max-width:850px){
+    .topnav .search-container {
+        float: none;
+    }
+}
+
+@media(max-width:550px){
+    .topnav .search-container {
+        float: none;
+    }
+}

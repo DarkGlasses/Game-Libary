@@ -1,0 +1,216 @@
+html{
+    padding: 4px;
+    background-color:   rgb(23, 58, 162);
+    font-family: Verdana ;
+}
+title{
+    font-weight: bold;
+    color:crimson;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 20px ;
+}
+
+/* Body */
+
+body{
+    padding-top: 4rem;
+}
+.red{
+    color: red;
+}
+
+/*Nav bar*/
+
+.main-nav{
+    width: 100vw; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    min-width: 500px;
+}
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+}
+.main-nav li{
+    float: left
+}
+.main-nav a{
+    background-color: black;
+    display: block;
+    padding: 1rem 4rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    background-color: rgb(0, 23, 91);
+    color: gray;
+}
+.main-nav input{
+    float: right;
+}
+.main-nav input[type=text]{
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    margin-right: 3rem;
+}
+
+/*head*/
+
+.head-section{
+    grid-area: head-section;
+    background: url(https://img.freepik.com/free-photo/view-illuminated-neon-gaming-keyboard-setup-controller_23-2149529357.jpg?t=st=1731324708~exp=1731328308~hmac=506c142eb093ed380d4e9bca5913179975650644753f158a075f57ab03baff83&w=1060);
+    padding: 5rem;
+    background-size: cover;
+    background-position: top;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 0 1px Spx rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 300px;
+}
+.head-section h1{
+    font-size: 4rem;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.head-section p{
+    font-size: 2rem;
+    margin-top: 20px;
+    color: white;
+    margin-left: 1rem;
+    
+}
+
+/*Content*/
+
+.content-section{
+    margin-top: 4rem;
+    display: grid;
+    grid-row-gap: 4rem;
+    grid-column-gap: 4rem;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    min-width: 400px;
+}
+.content-section h3{
+    color: rgb(21, 52, 144);
+    font-size: 3rem;
+}
+.content-section div1{
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEiXm85SteuWBKn5i9po1xwCYUzyhyObAXSDonQUFrIOC6gLnt--mEBE36NFslrpSeRP6DR7SS87TK17jalFkaGn7JS6T7Bt5zxBftix3xZ2L9e9pruGg8emC1wbwzYCJan8fK5K5WaR_COqW5a_MjU7h7qHFr_edp6cSJ8ZEQGOenUA6gqLd3jJQHbkzpko=s1120-rw);
+    background-position: -350px -50px ;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 90px;
+}
+.content-section div2{
+    background-image: url(https://free-3dtextureshd.com/wp-content/uploads/2024/04/142.jpg.webp);
+    background-position: -400px -80px;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 90px;
+}
+.content-section div3{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/390/131/799/computer-role-playing-game-role-playing-action-lords-of-the-fallen-game-lords-of-the-fallen-hd-wallpaper-preview.jpg);
+    background-position: -200px -30px;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 90px;
+}
+.content-section div4{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1018/8/53/american-truck-simulator-ats-trucks-peterbilt-wallpaper-preview.jpg);
+    background-position: -100px -80px;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 90px;
+}
+.content-section div5{
+    background-image: url(https://img.freepik.com/free-photo/different-sport-balls_1048-2681.jpg);
+    background-position: 0;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 90px;
+}
+.content-section div6{
+    background-image: url(https://img.freepik.com/premium-photo/wallpaper-survival-horror-protagonist-exploring-abandoned-mansion-generative-ai_80538-1978.jpg);
+    background-position: 50px -50px;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 50px;
+    min-width: 90px;
+}
+
+.content-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+    border-radius: 5px; 
+    margin-top: 20px;
+    
+}
+.content-button a{
+    text-decoration: none;
+    color: white;
+}
+.content-button:hover {
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+footer{
+    margin-top: 4rem;
+    background-color: black;
+    color: #dddddd;
+    padding: 1rem;
+    text-align: center;
+    min-width: 400px;
+}
+
+@media(max-width:850px){
+    .content-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .topnav .search-container {
+        float: none;
+    }
+}
+
+@media(max-width:550px){
+    .content-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .topnav .search-container {
+        float: none;
+    }
+}
